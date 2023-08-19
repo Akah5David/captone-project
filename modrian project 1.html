@@ -88,6 +88,30 @@
     .white4{
       grid-area: 2/1/5/2;
     }
+
+    @media (min-width: 319px) and (max-width: 768px){
+      .container{
+      display: grid;
+      height: 374px;
+      width: 374px;
+      grid-template-columns: 160px 97.5px 76.5px 25px;
+      grid-template-rows: 207px 65px 77.5px 10px;
+      gap: 4.5px;
+      background-color: black;
+      }
+    }
+
+    @media (min-width: 769px) and (max-width: 1400px){
+      .container{
+      display: grid;
+      height: 498.67px;
+      width: 498.67px;
+      grid-template-columns: 213.33px 132px 102px 33.33px;
+      grid-template-rows: 276px 86.67px 103.33px 13.33px;
+      gap: 6px;
+      background-color: black;
+      }
+    }
   </style>
 </head>
 
